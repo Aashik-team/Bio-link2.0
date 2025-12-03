@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from Biolink import MAFU as app
+from Biolink import Biolink as app
 from Biolink.helper.database import get_users, get_chats, get_new_users, get_new_chats
 
 
