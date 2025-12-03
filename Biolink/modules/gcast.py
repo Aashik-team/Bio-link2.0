@@ -3,8 +3,8 @@ from pyrogram.errors import PeerIdInvalid, UserIsBlocked, InputUserDeactivated, 
 from pyrogram.types import Message
 from pyrogram import Client, filters, enums
 from config import OWNER_ID
-from MAFU.helper.database import get_users, get_chats
-from MAFU import MAFU as app
+from Biolink.helper.database import get_users, get_chats
+from Biolink import MAFU as app
 
 @app.on_message(filters.command("broadcast") & filters.user(OWNER_ID))
 async def broadcast_handler(client, message: Message):
