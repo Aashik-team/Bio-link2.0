@@ -23,7 +23,7 @@ logging.basicConfig(
 
 
 
-MAFU = Client(
+Biolink = Client(
     ":Biolink:",
     api_id=API_ID,
     api_hash=API_HASH,
