@@ -1,3 +1,4 @@
+#𝐀𝐚𝐬𝐡𝐢𝐤 𝐓ᴇᴀᴍ
 import time
 import psutil
 import platform
